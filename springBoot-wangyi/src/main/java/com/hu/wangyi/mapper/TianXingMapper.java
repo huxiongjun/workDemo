@@ -17,4 +17,7 @@ public interface TianXingMapper {
     void saveComment(Comment comment);
 
     void saveCommentList(List<Comment> resultList);
+
+    int findCommentCount();
+
 }

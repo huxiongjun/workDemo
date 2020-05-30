@@ -28,4 +28,9 @@ public class TianXingServiceImpl implements TianXingService {
     public void saveCommentList(List<Comment> resultList) {
         tianXingMapper.saveCommentList(resultList);
     }
+
+    @Override
+    public int findCommentCount() {
+        return tianXingMapper.findCommentCount();
+    }
 }

@@ -14,7 +14,7 @@ spring:
 #天行数据管理apiKey
 TianXin:
    key: 63bc63d79b851dc127c142cd75dd945f
-   url: http://api.tianapi.com/txapi/hotreview/index
+   wangyiurl: http://api.tianapi.com/txapi/hotreview/index
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

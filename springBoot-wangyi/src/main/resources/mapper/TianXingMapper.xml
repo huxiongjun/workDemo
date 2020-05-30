@@ -14,4 +14,8 @@
              (#{item.id},#{item.content},#{item.source},#{item.saveTime},#{item.updateTime})
          </foreach>
     </insert>
+<!--        int findCommentCount();-->
+    <select id="findCommentCount"  resultType="int">
+        SELECT COUNT(*) FROM tb_comment
+    </select>
 </mapper>

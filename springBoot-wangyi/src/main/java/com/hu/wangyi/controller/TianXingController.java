@@ -29,7 +29,7 @@ public class TianXingController {
 
     @Value("${TianXin.key}")
     private String key;
-    @Value("${TianXin.url}")
+    @Value("${TianXin.wangyiurl}")
     private String url;
 
     /**
