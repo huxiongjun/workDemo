@@ -18,6 +18,7 @@ import java.util.List;
 public class TianXingServiceImpl implements TianXingService {
     @Autowired
     private TianXingMapper tianXingMapper;
+
     @Override
     public void saveComment(Comment comment) {
         tianXingMapper.saveComment(comment);
