@@ -4,3 +4,19 @@ spring:
   redis:
     host: 127.0.0.1
     port: 6379
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/huxiongjun?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: root
+
+
+#天行数据管理apiKey
+TianXin:
+   key: 63bc63d79b851dc127c142cd75dd945f
+   url: http://api.tianapi.com/txapi/hotreview/index
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+

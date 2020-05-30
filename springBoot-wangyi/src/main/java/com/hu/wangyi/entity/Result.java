@@ -1,5 +1,7 @@
 package com.hu.wangyi.entity;
 
+import com.hu.wangyi.pojo.Comment;
+
 import java.io.Serializable;
 import java.util.List;
 
@@ -12,9 +14,9 @@ import java.util.List;
 public class Result implements Serializable {
     private String code;
     private String msg;
-    private List<SingleResult> newslist;
+    private List<Comment> newslist;
 
-    public Result(String code, String msg, List<SingleResult> newslist) {
+    public Result(String code, String msg, List<Comment> newslist) {
         this.code = code;
         this.msg = msg;
         this.newslist = newslist;
@@ -39,11 +41,11 @@ public class Result implements Serializable {
         this.msg = msg;
     }
 
-    public List<SingleResult> getNewslist() {
+    public List<Comment> getNewslist() {
         return newslist;
     }
 
-    public void setNewslist(List<SingleResult> newslist) {
+    public void setNewslist(List<Comment> newslist) {
         this.newslist = newslist;
     }
 

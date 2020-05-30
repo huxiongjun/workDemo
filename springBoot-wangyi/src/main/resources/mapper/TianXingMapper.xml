@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.hu.wangyi.mapper.TianXingMapper">
+    <!--保存单个评论-->
+    <insert id="saveComment" parameterType="com.hu.wangyi.pojo.Comment">
+        insert into tb_comment values (#{id},#{content},#{source},#{saveTime},#{updateTime})
+    </insert>
+<!--保存所有评论  void saveCommentList(List<Comment> resultList);-->
+    <insert id="saveCommentList" parameterType="java.util.List">
+        insert into tb_comment values
+         <foreach collection="list" item="item" index="index" separator=",">
+             (#{item.id},#{item.content},#{item.source},#{item.saveTime},#{item.updateTime})
+         </foreach>
+    </insert>
+</mapper>
