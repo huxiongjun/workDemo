@@ -1,0 +1,17 @@
+server:
+  port: 7001
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    register-with-eureka: false   #是否将自己注册到eureka中 选择否
+    fetch-registry: false         #是否从eureka中获取信息  选择否
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  server:
+    enable-self-preservation: true # 关闭自我保护机制
+    eviction-interval-timer-in-ms: 5000 # 配置检查 微服务是否已经挂掉   单位是毫秒
+spring:
+  application:
+    #    注册中心的服务名字
+    name: eurekaServer

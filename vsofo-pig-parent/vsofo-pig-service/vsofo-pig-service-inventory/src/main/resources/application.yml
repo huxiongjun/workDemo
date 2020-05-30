@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: pigServiceInventory
+  #连接数据库sql_server
+  #  datasource:
+  #    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  #    url: jdbc:sqlserver://127.0.0.1:1433;Databasename=EFS_JXN_Test
+  #    username: sa
+  #    password: 123
+
+  #连接mysql 数据库
+  datasource:  # 连接到数据库
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/huxiongjun?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: root
+
+
+# mybatis配置
+mybatis:
+  #实体类别名
+  type-aliases-package: com.vsofo.inventory.pojo
+  #mapper xml 文件对应的位置
+  mapper-locations: classpath:mapper/*.xml
+#mybatis配置文件对应的位置 这里直接就在application.yml 文件中配置了
+#configLocation: classpath:/mybatis-config.xml
+
+
+server:
+  port: 18081 #该微服务的端口
+
+#向eureka 服务端注册
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true
+# 日志记录测试
+logging:
+  config:
+    classpath:logback-test.xml
+
+# 开启熔断器
+feign:
+  hystrix:
+    enabled: true

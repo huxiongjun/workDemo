@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vsofo-pig-common" />
+        <module name="vsofo-pig-service-cost-api" />
+        <module name="vsofo-pig-gateway-company" />
+        <module name="vsofo-pig-service-indicator-api" />
+        <module name="vsofo-pig-service-slaughter-api" />
+        <module name="vsofo-pig-common-db" />
+        <module name="vsofo-pig-service-inventory-api" />
+        <module name="vsofo-pig-service-slaughter" />
+        <module name="vsofo-pig-service-inventory" />
+        <module name="vsofo-pig-service-test" />
+        <module name="vsofo-pig-service-cost" />
+        <module name="vsofo-pig-eurekaServer" />
+        <module name="vsofo-pig-service-indicator" />
+        <module name="vsofo-pig-configServer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="vsofo-pig-common" target="1.8" />
+      <module name="vsofo-pig-common-db" target="1.8" />
+      <module name="vsofo-pig-configServer" target="1.8" />
+      <module name="vsofo-pig-eurekaServer" target="1.8" />
+      <module name="vsofo-pig-gateway" target="1.8" />
+      <module name="vsofo-pig-gateway-company" target="1.8" />
+      <module name="vsofo-pig-parent" target="1.8" />
+      <module name="vsofo-pig-service" target="1.8" />
+      <module name="vsofo-pig-service-api" target="1.8" />
+      <module name="vsofo-pig-service-cost" target="1.8" />
+      <module name="vsofo-pig-service-cost-api" target="1.8" />
+      <module name="vsofo-pig-service-indicator" target="1.8" />
+      <module name="vsofo-pig-service-indicator-api" target="1.8" />
+      <module name="vsofo-pig-service-inventory" target="1.8" />
+      <module name="vsofo-pig-service-inventory-api" target="1.8" />
+      <module name="vsofo-pig-service-slaughter" target="1.8" />
+      <module name="vsofo-pig-service-slaughter-api" target="1.8" />
+      <module name="vsofo-pig-service-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="vsofo-pig-common" options="-parameters" />
+      <module name="vsofo-pig-common-db" options="-parameters" />
+      <module name="vsofo-pig-configServer" options="-parameters" />
+      <module name="vsofo-pig-eurekaServer" options="-parameters" />
+      <module name="vsofo-pig-gateway-company" options="-parameters" />
+      <module name="vsofo-pig-service-cost" options="-parameters" />
+      <module name="vsofo-pig-service-cost-api" options="-parameters" />
+      <module name="vsofo-pig-service-indicator" options="-parameters" />
+      <module name="vsofo-pig-service-indicator-api" options="-parameters" />
+      <module name="vsofo-pig-service-inventory" options="-parameters" />
+      <module name="vsofo-pig-service-inventory-api" options="-parameters" />
+      <module name="vsofo-pig-service-slaughter" options="-parameters" />
+      <module name="vsofo-pig-service-slaughter-api" options="-parameters" />
+      <module name="vsofo-pig-service-test" options="-parameters" />
+    </option>
+  </component>
+</project>

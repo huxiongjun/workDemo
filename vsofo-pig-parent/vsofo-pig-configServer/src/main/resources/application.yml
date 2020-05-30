@@ -1,0 +1,36 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: configServer # 应用名
+  cloud:
+    config:
+      server:
+        git:
+          # 配置github的仓库地址
+          uri: https://github.com/huxiongjun/config.git
+          #          这里是公开的不需要账号密码,私有的需要账号密码
+          username: vsofohuxiongjun@126.com
+          password: Hxj520xnh
+
+  #  # rabbitmq的配置信息；如下配置的rabbit都是默认值，其实可以完全不配置
+  # rabbitmq 配合消息总线去实现配置文件的实时刷新,待完成
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+# # 暴露触发消息总线的地址
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+#是否开启基本的鉴权，默认为true
+# Eureka服务中心配置
+eureka: #向eureka 服务端注册
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true

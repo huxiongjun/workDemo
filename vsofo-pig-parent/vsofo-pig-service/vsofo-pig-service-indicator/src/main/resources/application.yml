@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: pigServiceIndicator
+server:
+  port: 18083 #该微服务的端口
+eureka: #向eureka 服务端注册
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+  instance:
+    prefer-ip-address: true
