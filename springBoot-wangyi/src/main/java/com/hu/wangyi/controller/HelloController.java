@@ -1,6 +1,8 @@
-package com.hu.disease.controller;
+package com.hu.wangyi.controller;
 
+import com.hu.wangyi.entity.Result;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,10 +13,16 @@ import org.springframework.web.bind.annotation.RestController;
  * @description 测试
  */
 @RestController
-@RequestMapping("/test")
+@RequestMapping("/wangyi")
 public class HelloController {
-    @GetMapping
+    @GetMapping("/test")
     public Object test(){
         return "hello";
+    }
+    @PostMapping("/comment")
+    public Result findDisease(){
+        return null;
+
+
     }
 }
