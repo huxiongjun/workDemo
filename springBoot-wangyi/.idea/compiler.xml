@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springBoot-wangyi" />
+        <module name="springBoot-rabbitmq02" />
         <module name="springBoot-rabbitmq" />
+        <module name="springBoot-wangyi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="springBoot-rabbitmq" target="1.8" />
+      <module name="springBoot-rabbitmq02" target="1.8" />
       <module name="springBoot-wangyi" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springBoot-rabbitmq" options="-parameters" />
+      <module name="springBoot-rabbitmq02" options="-parameters" />
       <module name="springBoot-wangyi" options="-parameters" />
     </option>
   </component>

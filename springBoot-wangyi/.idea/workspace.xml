@@ -11,9 +11,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a98ac2c2-62f8-45a9-87b7-e3706fd2b85a" name="Default Changelist" comment="创建仓库">
-      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq/src/main/java/com/example/RabbitmqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq/springBoot-rabbitmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq/src/main/java/com/example/config/RabbitmqConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq/src/test/java/com/example/TestDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq02/springBoot-rabbitmq02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq02/src/main/java/org/example/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq02/src/main/java/org/example/listener/MessageListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springBoot-rabbitmq02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_1_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_6_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot-rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot-rabbitmq/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -67,6 +83,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -80,7 +100,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
+    <configuration name="TestDemo.fun01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBoot-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.TestDemo" />
+      <option name="METHOD_NAME" value="fun01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestDemo.fun01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springBoot-wangyi" />
       <extension name="coverage">
@@ -97,8 +133,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDemo.testCreateMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springBoot-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.TestDemo" />
+      <option name="METHOD_NAME" value="testCreateMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBoot-rabbitmq02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springBoot-rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.RabbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConsumerApplication" />
+        <item itemvalue="JUnit.TestDemo.testCreateMessage" />
+        <item itemvalue="Spring Boot.RabbitmqApplication" />
+        <item itemvalue="JUnit.TestDemo.fun01 (1)" />
         <item itemvalue="JUnit.TestDemo.fun01" />
       </list>
     </recent_temporary>
@@ -115,7 +197,7 @@
       <updated>1590902384717</updated>
       <workItem from="1590902386590" duration="1934000" />
       <workItem from="1591022403776" duration="229000" />
-      <workItem from="1591188916268" duration="1321000" />
+      <workItem from="1591188916268" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1590903725737</created>
@@ -145,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591189687929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="创建仓库">
+      <created>1591190353544</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591190353544</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,18 +266,75 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="275" key="#Notifications/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591189254866" />
+    <state x="473" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591191739567">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191739567" />
     <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1591022522784">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591022522784" />
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom" timestamp="1591191837437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191837437" />
+    <state width="2005" height="376" key="GridCell.Tab.0.bottom/0.0.1536.824/3840.0.2048.1112@3840.0.2048.1112" timestamp="1591190490645" />
+    <state width="1493" height="288" key="GridCell.Tab.0.center" timestamp="1591191837437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191837437" />
+    <state width="2005" height="376" key="GridCell.Tab.0.center/0.0.1536.824/3840.0.2048.1112@3840.0.2048.1112" timestamp="1591190490645" />
+    <state width="1493" height="288" key="GridCell.Tab.0.left" timestamp="1591191837437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191837437" />
+    <state width="2005" height="376" key="GridCell.Tab.0.left/0.0.1536.824/3840.0.2048.1112@3840.0.2048.1112" timestamp="1591190490645" />
+    <state width="1493" height="288" key="GridCell.Tab.0.right" timestamp="1591191837437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191837437" />
+    <state width="2005" height="376" key="GridCell.Tab.0.right/0.0.1536.824/3840.0.2048.1112@3840.0.2048.1112" timestamp="1591190490645" />
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom" timestamp="1591191837331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.bottom/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191837331" />
+    <state width="1493" height="288" key="GridCell.Tab.1.center" timestamp="1591191837331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.center/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191837331" />
+    <state width="1493" height="288" key="GridCell.Tab.1.left" timestamp="1591191837331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.left/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191837331" />
+    <state width="1493" height="288" key="GridCell.Tab.1.right" timestamp="1591191837331">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="288" key="GridCell.Tab.1.right/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191837331" />
+    <state width="1493" height="139" key="GridCell.Tab.2.bottom" timestamp="1591191823737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="139" key="GridCell.Tab.2.bottom/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191823737" />
+    <state width="1493" height="139" key="GridCell.Tab.2.center" timestamp="1591191823737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="139" key="GridCell.Tab.2.center/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191823737" />
+    <state width="1493" height="139" key="GridCell.Tab.2.left" timestamp="1591191823737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="139" key="GridCell.Tab.2.left/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191823737" />
+    <state width="1493" height="139" key="GridCell.Tab.2.right" timestamp="1591191823737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="139" key="GridCell.Tab.2.right/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191823737" />
     <state x="271" y="58" key="SettingsEditor" timestamp="1591189932324">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="271" y="58" key="SettingsEditor/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591189932324" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1591189697980">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="4323" y="197" key="Vcs.Push.Dialog.v2" timestamp="1591190367688">
+      <screen x="3840" y="0" width="2048" height="1112" />
     </state>
     <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591189697980" />
+    <state x="4323" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2048.1112@3840.0.2048.1112" timestamp="1591190367688" />
     <state x="567" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591190134300">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -197,9 +343,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="470" y="200" key="git4idea.merge.GitPullDialog/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591189674559" />
-    <state x="151" y="74" key="new project wizard" timestamp="1591189789661">
+    <state x="151" y="74" key="new project wizard" timestamp="1591191395165">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="151" y="74" key="new project wizard/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591189789661" />
+    <state x="151" y="74" key="new project wizard/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591191395165" />
   </component>
 </project>
