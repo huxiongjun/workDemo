@@ -7,7 +7,7 @@ import java.util.Date;
  * @author huxiongjun
  * @version 1.0
  * @date 2020/5/31 1:11
- * @description TODO
+ * @description 实体类
  */
 public class Sentence implements Serializable {
     private int id; // 主键id
