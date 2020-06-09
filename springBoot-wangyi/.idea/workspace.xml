@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a98ac2c2-62f8-45a9-87b7-e3706fd2b85a" name="Default Changelist" comment="创建仓库">
+    <list default="true" id="a98ac2c2-62f8-45a9-87b7-e3706fd2b85a" name="Default Changelist" comment="提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/myresposity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -178,6 +178,7 @@
       <workItem from="1591022403776" duration="229000" />
       <workItem from="1591188916268" duration="3850000" />
       <workItem from="1591278560965" duration="11000" />
+      <workItem from="1591278732430" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1590903725737</created>
@@ -221,7 +222,28 @@
       <option name="project" value="LOCAL" />
       <updated>1591191980732</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="提交">
+      <created>1591278874144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591278874144</updated>
+    </task>
+    <task id="LOCAL-00008" summary="提交">
+      <created>1591278881878</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591278881878</updated>
+    </task>
+    <task id="LOCAL-00009" summary="提交">
+      <created>1591279028958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591279028958</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +268,8 @@
     </ignored-roots>
     <MESSAGE value="111" />
     <MESSAGE value="创建仓库" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建仓库" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="604" y="275" key="#Notifications" timestamp="1591189254866">
@@ -317,10 +340,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="271" y="58" key="SettingsEditor/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591189932324" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1591192430618">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1591279079318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591192430618" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2048.1112@0.0.1536.824" timestamp="1591279079318" />
     <state x="4323" y="197" key="Vcs.Push.Dialog.v2/0.0.1536.824/3840.0.2048.1112@3840.0.2048.1112" timestamp="1591190367688" />
     <state x="567" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591190134300">
       <screen x="0" y="0" width="1536" height="824" />
